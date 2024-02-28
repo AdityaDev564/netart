@@ -1,0 +1,201 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: rgb(245, 237, 227); */
+}
+
+.main-body{
+  background-image: linear-gradient(white, rgb(243, 219, 190), rgb(245, 237, 227));
+}
+
+nav{
+  display: flex;
+  /* align-items: center;
+  justify-items: center; */
+  justify-content: center;
+}
+
+nav img{
+  width: 30%;
+  height: auto;
+  /* margin: 5px; */
+}
+
+main{
+  display: flex;
+}
+
+ul {
+  margin: 0; /* Reset margin to 0 */
+  padding: 0; /* Reset padding to 0 */
+  /* Any other styles for the ul element */
+}
+
+.prize-image{
+  width: 50%;
+  padding-left: 10vh;
+}
+
+.bold-text{
+  font-weight: 900;
+}
+
+.prize-image img{
+  width: 100%;
+  height: 100%;
+}
+
+.main-content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.prize-handing{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.prize-handing img{
+  width: 100%;
+  height: auto;
+  margin-top: 2%;
+}
+
+.achievement{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  padding: 15px;
+}
+
+.second-component img{
+  width: 100%;
+  height: auto;
+  align-items: center;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.second-text{
+  text-align: center;
+  font-weight: 600;
+}
+
+.horizontal-line{
+  display: flex;
+  justify-content: center;
+}
+
+.vertical-line{
+  color: red;
+  font-weight: 900;
+}
+
+.segment-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.segment-content h3{
+  margin-bottom: 2%;
+}
+
+.segment-content p{
+  padding-left: 4%;
+  padding-right: 4%;
+  font-weight: 500;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: red;
+  color: white;
+  height: 20vh;
+  margin: 1%;
+}
+
+.footer-element{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: red;
+}
+.footer-element p{
+  background-color: red;
+  margin-left: 5px;
+  padding-top: 30px;
+}
+
+.footer-icon{
+  background-color: red;
+  width: 30px;
+  height: 30px;
+}
+
+.phone-icon{
+  background-color: white;
+  color: red;
+  border-radius: 50%;
+  padding: 5px;
+
+}
+
+hr{
+  width: 98%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-color: red;
+}
+
+@media screen and (max-width: 768px){
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-content{
+    padding: 5px;
+    line-height: 1.3;
+  }
+  .prize-image{
+    margin: auto;
+    width: 50vh;
+    height: 70vh;
+    padding-left: 0;
+  }
+
+  .segment-content p{
+    line-height: 1.3;
+  }
+
+  footer{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
