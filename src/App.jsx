@@ -11,11 +11,11 @@ function App() {
   return (
     <div className="main-body">
       <nav>
-        <img src="../src/assets/logo.png" alt="logo" />
+        <img src="../public/assets/logo.png" alt="logo" />
       </nav>
       <main>
         <div className='prize-image'>
-          <img src="../src/assets/1.png" alt="prize" />
+          <img src="../public/assets/1.png" alt="prize" />
         </div>
         <div className='main-component'>
           <h3>C.R.I PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for the 4th time.</h3>
@@ -32,7 +32,7 @@ function App() {
           </ul>
           </div>
           <div className='prize-handing'>
-            <img src="../src/assets/2.png" alt="prize" />
+            <img src="../public/assets/2.png" alt="prize" />
           </div>
           </div>
           <p>
@@ -47,7 +47,7 @@ function App() {
         
         <div className='list-content'>
           <div className='second-component'>
-            <img src="../src/assets/3.png" alt="images" />
+            <img src="../public/assets/3.png" alt="images" />
             <p className='second-text'>
               Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables - Solar Systems - Motors
             </p>
